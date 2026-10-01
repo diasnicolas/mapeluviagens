@@ -1,0 +1,16 @@
+/* Portal de Ofertas — OTA-style travel marketplace template (order matters: base → sections → responsive) */
+@import './base.css';
+@import './feedback.css';
+@import './header.css';
+@import './hero.css';
+@import './services.css';
+@import './differentials.css';
+@import './about.css';
+@import './testimonials.css';
+@import './gallery.css';
+@import './faq.css';
+@import './promo.css';
+@import './contact.css';
+@import './footer.css';
+@import './responsive.css';
+@import './mapelu.css';

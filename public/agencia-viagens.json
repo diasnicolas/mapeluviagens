@@ -1,0 +1,468 @@
+{
+  "agencia": {
+    "nome": "Mapelu Viagens",
+    "nome_curto": "Mapelu Viagens",
+    "slogan": "Transformando planos em memórias inesquecíveis.",
+    "descricao_curta": "Agência de viagens em Campinas/SP com atendimento personalizado do início ao fim: passagens, pacotes sob medida, hospedagem, seguro viagem, cruzeiros, aluguel de carros e ingressos.",
+    "ano_fundacao": null,
+    "cnpj": "48.217.106/0001-78",
+    "cadastur": "",
+    "logotipo": {
+      "principal": "./brand/logo-mapelu-colorido.png",
+      "branco": "./brand/logo-mapelu-branco.png",
+      "icone": "./brand/icone-mapelu.png",
+      "favicon": "./brand/favicon-64.png",
+      "alt": "Logotipo Mapelu Viagens"
+    },
+    "identidade_visual": {
+      "cor_primaria": "#2A5BA0",
+      "cor_secundaria": "#F28C33",
+      "cor_destaque": "#F9A23A",
+      "cor_escura": "#12294D",
+      "cor_clara": "#F4F7FC",
+      "fonte_titulos": "Nunito Sans",
+      "fonte_textos": "Nunito Sans"
+    }
+  },
+
+  "seo": {
+    "titulo": "Mapelu Viagens | Agência de Viagens em Campinas/SP",
+    "descricao": "Passagens aéreas, pacotes e roteiros sob medida, hospedagem, seguro viagem, cruzeiros, aluguel de carros e ingressos. Atendimento personalizado e suporte 24h durante a viagem. Mapelu Viagens, Campinas/SP.",
+    "palavras_chave": ["agência de viagens", "agência de viagens Campinas", "Cambuí", "passagens aéreas", "roteiros personalizados", "pacotes de viagem", "cruzeiros", "seguro viagem", "Mapelu Viagens"],
+    "imagem_compartilhamento": "https://mapeluviagens.com.br/brand/og-mapelu-viagens.jpg"
+  },
+
+  "menu": [
+    { "rotulo": "Início", "ancora": "#hero" },
+    { "rotulo": "Serviços", "ancora": "#servicos" },
+    { "rotulo": "Diferenciais", "ancora": "#diferenciais" },
+    { "rotulo": "Sobre", "ancora": "#sobre" },
+    { "rotulo": "Galeria", "ancora": "#galeria" },
+    { "rotulo": "Depoimentos", "ancora": "#depoimentos" },
+    { "rotulo": "Dúvidas", "ancora": "#faq" },
+    { "rotulo": "Contato", "ancora": "#contato" }
+  ],
+
+  "hero": {
+    "etiqueta": "✈️ Sua agência de viagens em Campinas/SP",
+    "titulo": "Transforme seus planos em",
+    "titulo_destaque": "memórias inesquecíveis",
+    "subtitulo": "Atendimento personalizado do início ao fim. Nossa equipe de especialistas cuida de cada detalhe do seu roteiro para você só se preocupar em arrumar as malas.",
+    "imagem_fundo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "video_fundo": null,
+    "overlay_opacidade": 0.45,
+    "cta_primario": {
+      "texto": "Quero planejar minha viagem",
+      "link": "https://wa.me/5519978294421?text=Ol%C3%A1!%20Quero%20planejar%20minha%20viagem.",
+      "icone": "fa-brands fa-whatsapp"
+    },
+    "cta_secundario": {
+      "texto": "Ver serviços",
+      "link": "#servicos",
+      "icone": "fa-solid fa-arrow-down"
+    },
+    "slides": [
+      {
+        "titulo": "Roteiros sob medida",
+        "subtitulo": "Nada de pacote engessado: a viagem ideal para o seu perfil e orçamento",
+        "imagem": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80"
+      },
+      {
+        "titulo": "Cruzeiros marítimos e fluviais",
+        "subtitulo": "Escolha o navio, a cabine e o roteiro com quem entende do assunto",
+        "imagem": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1920&q=80"
+      },
+      {
+        "titulo": "Passagens nacionais e internacionais",
+        "subtitulo": "Encontramos o melhor voo para o seu destino",
+        "imagem": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80"
+      }
+    ],
+    "busca": {
+      "ativo": false,
+      "campos": [],
+      "botao": "Solicitar orçamento"
+    },
+    "estatisticas": [
+      { "valor": "24h", "rotulo": "Suporte durante a viagem" },
+      { "valor": "Sob medida", "rotulo": "Roteiros personalizados" },
+      { "valor": "Brasil e exterior", "rotulo": "Viagens nacionais e internacionais" },
+      { "valor": "Campinas/SP", "rotulo": "Atendimento no Cambuí" }
+    ]
+  },
+
+  "sobre": {
+    "etiqueta": "Quem somos",
+    "titulo": "Transformar planos em memórias inesquecíveis é a nossa paixão",
+    "subtitulo": "Nascemos para descomplicar a arte de viajar.",
+    "paragrafos": [
+      "Na Mapelu Viagens, transformar planos em memórias inesquecíveis é a nossa grande paixão. Nascemos com o propósito de descomplicar a arte de viajar, oferecendo um atendimento personalizado do início ao fim.",
+      "Nossa equipe de especialistas cuida de cada detalhe do seu roteiro para que você só precise se preocupar em arrumar as malas e viver a experiência dos seus sonhos."
+    ],
+    "imagem_principal": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1000&q=80",
+    "imagem_secundaria": "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=800&q=80",
+    "selo_experiencia": null,
+    "missao": "",
+    "visao": "",
+    "valores": [],
+    "numeros": [],
+    "equipe": [],
+    "cta": {
+      "texto": "Fale com um especialista",
+      "link": "https://wa.me/5519978294421?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20especialista."
+    }
+  },
+
+  "diferenciais": {
+    "etiqueta": "Por que viajar com a Mapelu",
+    "titulo": "Cuidamos de cada detalhe da sua viagem",
+    "subtitulo": "Você só precisa arrumar as malas e viver a experiência dos seus sonhos.",
+    "imagem": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=1000&q=80",
+    "itens": [
+      {
+        "icone": "fa-solid fa-headset",
+        "titulo": "Suporte ativo 24h",
+        "descricao": "Acompanhamento humanizado durante toda a viagem para resolver qualquer emergência."
+      },
+      {
+        "icone": "fa-solid fa-route",
+        "titulo": "Roteiros personalizados",
+        "descricao": "Nada de pacotes engessados: criamos a viagem ideal para o seu perfil e orçamento."
+      },
+      {
+        "icone": "fa-solid fa-user-check",
+        "titulo": "Atendimento do início ao fim",
+        "descricao": "Um atendimento personalizado do primeiro contato até a sua volta para casa."
+      },
+      {
+        "icone": "fa-solid fa-suitcase-rolling",
+        "titulo": "Tudo em um só lugar",
+        "descricao": "Passagens, hospedagem, seguro, cruzeiros, carro e ingressos organizados pela mesma equipe."
+      }
+    ]
+  },
+
+  "servicos": {
+    "etiqueta": "O que fazemos",
+    "titulo": "Tudo o que a sua viagem precisa",
+    "subtitulo": "Do voo ao ingresso do parque, nossa equipe organiza cada etapa para você.",
+    "itens": [
+      {
+        "id": "passagens-aereas",
+        "icone": "fa-solid fa-plane-departure",
+        "titulo": "Passagens Aéreas",
+        "descricao": "Passagens aéreas nacionais e internacionais, com a ajuda de quem entende para escolher o melhor voo para a sua viagem.",
+        "imagem": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80",
+        "beneficios": ["Voos nacionais", "Voos internacionais", "Atendimento personalizado"],
+        "cta": { "texto": "Cotar passagem", "link": "#contato" }
+      },
+      {
+        "id": "pacotes-sob-medida",
+        "icone": "fa-solid fa-map-location-dot",
+        "titulo": "Pacotes e Roteiros sob Medida",
+        "descricao": "Nada de pacotes engessados: montamos o roteiro ideal para o seu perfil e o seu orçamento.",
+        "imagem": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+        "beneficios": ["Roteiro personalizado", "Do seu jeito e no seu ritmo", "Cabe no seu orçamento"],
+        "cta": { "texto": "Montar meu roteiro", "link": "#contato" }
+      },
+      {
+        "id": "hospedagem",
+        "icone": "fa-solid fa-hotel",
+        "titulo": "Hospedagem",
+        "descricao": "Reservas de hotéis no Brasil e no exterior, escolhidos de acordo com o seu estilo de viagem.",
+        "imagem": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+        "beneficios": ["Hotéis no Brasil", "Hotéis no exterior", "Reserva sem complicação"],
+        "cta": { "texto": "Reservar hotel", "link": "#contato" }
+      },
+      {
+        "id": "seguro-viagem",
+        "icone": "fa-solid fa-suitcase-medical",
+        "titulo": "Seguro Viagem",
+        "descricao": "Seguro viagem com assistência completa para você viajar tranquilo do embarque ao retorno.",
+        "imagem": "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=800&q=80",
+        "beneficios": ["Assistência completa", "Viagens nacionais e internacionais", "Mais tranquilidade"],
+        "cta": { "texto": "Cotar seguro", "link": "#contato" }
+      },
+      {
+        "id": "cruzeiros",
+        "icone": "fa-solid fa-ship",
+        "titulo": "Cruzeiros",
+        "descricao": "Cruzeiros marítimos e fluviais, com ajuda para escolher o roteiro, o navio e a cabine certos para você.",
+        "imagem": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=800&q=80",
+        "beneficios": ["Cruzeiros marítimos", "Cruzeiros fluviais", "Escolha de cabine"],
+        "cta": { "texto": "Ver cruzeiros", "link": "#contato" }
+      },
+      {
+        "id": "carros-ingressos",
+        "icone": "fa-solid fa-car",
+        "titulo": "Aluguel de Carros e Ingressos",
+        "descricao": "Aluguel de carros e ingressos para atrações e parques, para aproveitar cada momento do destino.",
+        "imagem": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80",
+        "beneficios": ["Aluguel de carros", "Ingressos para parques", "Ingressos para atrações"],
+        "cta": { "texto": "Solicitar orçamento", "link": "#contato" }
+      }
+    ],
+    "servicos_complementares": [
+      { "icone": "fa-solid fa-ticket", "titulo": "Passagens aéreas" },
+      { "icone": "fa-solid fa-map-location-dot", "titulo": "Roteiros sob medida" },
+      { "icone": "fa-solid fa-hotel", "titulo": "Hospedagem" },
+      { "icone": "fa-solid fa-suitcase-medical", "titulo": "Seguro viagem" },
+      { "icone": "fa-solid fa-ship", "titulo": "Cruzeiros" },
+      { "icone": "fa-solid fa-car", "titulo": "Aluguel de carros" },
+      { "icone": "fa-solid fa-ticket-simple", "titulo": "Ingressos e parques" }
+    ]
+  },
+
+  "destinos_destaque": {
+    "etiqueta": "",
+    "titulo": "",
+    "subtitulo": "",
+    "itens": []
+  },
+
+  "depoimentos": {
+    "etiqueta": "Depoimentos",
+    "titulo": "Quem viaja com a gente, recomenda",
+    "subtitulo": "Histórias de clientes que embarcaram com a Mapelu Viagens.",
+    "media_avaliacao": null,
+    "total_avaliacoes": null,
+    "fonte": "",
+    "itens": []
+  },
+
+  "galeria": {
+    "etiqueta": "Inspiração",
+    "titulo": "Para onde vamos desta vez?",
+    "subtitulo": "Alguns destinos para inspirar a sua próxima viagem.",
+    "categorias": ["Todos", "Praias", "Europa", "Aventura", "Ásia", "Hotéis"],
+    "fotos": [
+      {
+        "url": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Águas cristalinas",
+        "local": "Maldivas",
+        "categoria": "Praias",
+        "alt": "Praia paradisíaca com água azul-turquesa"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Canais de Veneza",
+        "local": "Veneza, Itália",
+        "categoria": "Europa",
+        "alt": "Gôndola navegando pelos canais de Veneza"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Cidade perdida dos Incas",
+        "local": "Machu Picchu, Peru",
+        "categoria": "Aventura",
+        "alt": "Vista panorâmica das ruínas de Machu Picchu"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Templos milenares",
+        "local": "Kyoto, Japão",
+        "categoria": "Ásia",
+        "alt": "Templo tradicional japonês em Kyoto"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Resort à beira-mar",
+        "local": "Punta Cana, República Dominicana",
+        "categoria": "Hotéis",
+        "alt": "Piscina de resort de luxo ao entardecer"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Coliseu",
+        "local": "Roma, Itália",
+        "categoria": "Europa",
+        "alt": "Coliseu de Roma sob céu azul"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Baía de Ha Long",
+        "local": "Ha Long, Vietnã",
+        "categoria": "Ásia",
+        "alt": "Formações rochosas na Baía de Ha Long"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Lago entre montanhas",
+        "local": "Dolomitas, Itália",
+        "categoria": "Aventura",
+        "alt": "Barco em lago cercado por montanhas"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Vilarejos coloridos",
+        "local": "Cinque Terre, Itália",
+        "categoria": "Europa",
+        "alt": "Casas coloridas à beira do mar em Cinque Terre"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Arranha-céus no deserto",
+        "local": "Dubai, Emirados Árabes",
+        "categoria": "Ásia",
+        "alt": "Skyline de Dubai com Burj Khalifa"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Hospedagem de luxo",
+        "local": "Riviera Maya, México",
+        "categoria": "Hotéis",
+        "alt": "Hotel de luxo com piscina e palmeiras"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+        "miniatura": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&h=600&q=80",
+        "titulo": "Mergulho com vida marinha",
+        "local": "Fernando de Noronha, Brasil",
+        "categoria": "Praias",
+        "alt": "Mergulhador explorando o fundo do mar"
+      }
+    ]
+  },
+
+  "faq": {
+    "titulo": "Perguntas frequentes",
+    "subtitulo": "Tire suas dúvidas antes de embarcar.",
+    "itens": [
+      {
+        "pergunta": "Como funciona o orçamento?",
+        "resposta": "Você nos conta seus planos pelo WhatsApp, e-mail ou pelo formulário do site e nossa equipe monta uma proposta personalizada para o seu perfil e orçamento."
+      },
+      {
+        "pergunta": "Vocês trabalham só com pacotes prontos?",
+        "resposta": "Não. Nada de pacotes engessados: criamos a viagem ideal para você, com roteiros sob medida de acordo com o seu perfil e o seu orçamento."
+      },
+      {
+        "pergunta": "Quais serviços posso contratar com a Mapelu?",
+        "resposta": "Passagens aéreas nacionais e internacionais, pacotes e roteiros sob medida, hospedagem no Brasil e no exterior, seguro viagem com assistência completa, cruzeiros marítimos e fluviais, aluguel de carros e ingressos para atrações e parques."
+      },
+      {
+        "pergunta": "Tenho suporte durante a viagem?",
+        "resposta": "Sim. Oferecemos suporte ativo 24h, com acompanhamento humanizado durante toda a viagem para resolver qualquer emergência."
+      },
+      {
+        "pergunta": "Onde fica a agência?",
+        "resposta": "Estamos na Rua Comendador Torlogo Dauntre, 74, sala 1207, no Cambuí, em Campinas/SP."
+      }
+    ]
+  },
+
+  "cta_final": {
+    "titulo": "Pronto para a viagem dos seus sonhos?",
+    "subtitulo": "Fale com um de nossos especialistas e receba um roteiro feito para você.",
+    "imagem_fundo": "https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?auto=format&fit=crop&w=1920&q=80",
+    "botao": {
+      "texto": "Falar no WhatsApp",
+      "link": "https://wa.me/5519978294421?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20viagem.",
+      "icone": "fa-brands fa-whatsapp"
+    }
+  },
+
+  "newsletter": null,
+
+  "contato": {
+    "etiqueta": "Contato",
+    "titulo": "Vamos planejar sua viagem?",
+    "subtitulo": "Escolha o canal de sua preferência e fale com a nossa equipe.",
+    "telefone": null,
+    "whatsapp": {
+      "exibicao": "(19) 97829-4421",
+      "numero": "5519978294421",
+      "mensagem_padrao": "Olá! Vim pelo site e gostaria de um orçamento de viagem.",
+      "link": "https://wa.me/5519978294421?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20viagem."
+    },
+    "email": {
+      "exibicao": "contato@mapeluviagens.com.br",
+      "link": "mailto:contato@mapeluviagens.com.br"
+    },
+    "emails_departamentos": [],
+    "horario_atendimento": [
+      { "dias": "Suporte em viagem", "horario": "24h" }
+    ],
+    "formulario": {
+      "titulo": "Solicite seu orçamento",
+      "campos": [
+        { "nome": "nome", "rotulo": "Nome completo", "tipo": "text", "obrigatorio": true, "placeholder": "Seu nome" },
+        { "nome": "email", "rotulo": "E-mail", "tipo": "email", "obrigatorio": true, "placeholder": "seu@email.com" },
+        { "nome": "telefone", "rotulo": "WhatsApp", "tipo": "tel", "obrigatorio": true, "placeholder": "(00) 00000-0000" },
+        { "nome": "destino", "rotulo": "Destino desejado", "tipo": "text", "obrigatorio": false, "placeholder": "Para onde você quer ir?" },
+        { "nome": "periodo", "rotulo": "Período da viagem", "tipo": "text", "obrigatorio": false, "placeholder": "Ex.: janeiro de 2027" },
+        { "nome": "servico", "rotulo": "O que você precisa?", "tipo": "select", "obrigatorio": false, "opcoes": ["Passagens aéreas", "Pacote / roteiro sob medida", "Hospedagem", "Seguro viagem", "Cruzeiro", "Aluguel de carro", "Ingressos e parques", "Outro"] },
+        { "nome": "mensagem", "rotulo": "Mensagem", "tipo": "textarea", "obrigatorio": false, "placeholder": "Conte um pouco sobre a viagem dos seus sonhos" }
+      ],
+      "botao": "Enviar solicitação",
+      "mensagem_sucesso": "Recebemos sua mensagem! Em breve um de nossos especialistas entrará em contato.",
+      "aviso_privacidade": "Seus dados estão seguros e não serão compartilhados com terceiros."
+    },
+    "mapa": {
+      "latitude": null,
+      "longitude": null,
+      "embed_url": "https://www.google.com/maps?q=Rua%20Comendador%20Torlogo%20Dauntre%2C%2074%2C%20Cambu%C3%AD%2C%20Campinas%20-%20SP&z=16&output=embed",
+      "link": "https://www.google.com/maps/search/?api=1&query=Rua%20Comendador%20Torlogo%20Dauntre%2C%2074%2C%20Cambu%C3%AD%2C%20Campinas%20-%20SP"
+    }
+  },
+
+  "redes_sociais": [
+    {
+      "nome": "Instagram",
+      "usuario": "@mapeluviagens",
+      "url": "https://www.instagram.com/mapeluviagens/",
+      "icone": "fa-brands fa-instagram",
+      "seguidores": null
+    },
+    {
+      "nome": "WhatsApp",
+      "usuario": "(19) 97829-4421",
+      "url": "https://wa.me/5519978294421",
+      "icone": "fa-brands fa-whatsapp",
+      "seguidores": null
+    }
+  ],
+
+  "endereco": {
+    "logradouro": "Rua Comendador Torlogo Dauntre",
+    "numero": "74",
+    "complemento": "Sala 1207",
+    "bairro": "Cambuí",
+    "cidade": "Campinas",
+    "estado": "São Paulo",
+    "uf": "SP",
+    "cep": "",
+    "pais": "Brasil",
+    "referencia": "",
+    "completo": "Rua Comendador Torlogo Dauntre, 74, Sala 1207 - Cambuí, Campinas - SP"
+  },
+
+  "rodape": {
+    "sobre": "Agência de viagens no Cambuí, em Campinas/SP. Passagens, roteiros sob medida, hospedagem, seguro viagem, cruzeiros, carros e ingressos, com suporte 24h durante toda a viagem.",
+    "links_rapidos": [
+      { "rotulo": "Serviços", "link": "#servicos" },
+      { "rotulo": "Sobre nós", "link": "#sobre" },
+      { "rotulo": "Depoimentos", "link": "#depoimentos" },
+      { "rotulo": "Perguntas frequentes", "link": "#faq" },
+      { "rotulo": "Contato", "link": "#contato" }
+    ],
+    "links_legais": [
+      { "rotulo": "Política de Privacidade", "link": "politica-de-privacidade.html" }
+    ],
+    "formas_pagamento": [],
+    "selos": [],
+    "copyright": "© 2026 Mapelu Viagens · 48.217.106 MAYCON CORDEIRO NEVES - ME. Todos os direitos reservados.",
+    "aviso_demo": ""
+  }
+}

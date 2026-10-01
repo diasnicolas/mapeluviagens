@@ -1,0 +1,35 @@
+/* Páginas legais (Política de Privacidade) — identidade Mapelu Viagens */
+:root {
+  --primary: #2A5BA0;
+  --secondary: #F28C33;
+  --accent: #F9A23A;
+  --red: #EE3537;
+  --dark: #12294D;
+  --text: #3A4656;
+  --line: #E2E8F0;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-family: "Nunito Sans", system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.75; color: var(--text); background: #fff; }
+a { color: var(--primary); }
+.legal-wrap { width: min(100% - 32px, 820px); margin-inline: auto; }
+.legal-top { position: relative; background: #fff; border-bottom: 1px solid var(--line); }
+.legal-top::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; background: linear-gradient(90deg, var(--primary) 0%, var(--primary) 45%, var(--secondary) 75%, var(--red) 100%); }
+.legal-top .legal-wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; }
+.legal-top img { display: block; height: 50px; width: auto; }
+.legal-back { color: var(--dark); font-size: .9rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.legal-back:hover { color: var(--primary); }
+.legal-doc { padding-block: 48px 64px; }
+.legal-doc h1 { margin: 0 0 4px; font-size: clamp(1.8rem, 5vw, 2.4rem); font-weight: 900; line-height: 1.2; color: var(--dark); }
+.legal-doc h2 { margin: 36px 0 10px; font-size: 1.15rem; font-weight: 800; color: var(--primary); }
+.legal-doc ul { padding-left: 1.2em; }
+.legal-doc li + li { margin-top: 6px; }
+.legal-meta { margin-top: 0; font-size: .9rem; color: #667085; }
+.legal-contact { margin-top: 40px; padding: 18px 20px; border-left: 4px solid var(--accent); border-radius: 10px; background: #F3F7FD; }
+.legal-foot { background: var(--dark); color: rgba(255, 255, 255, .75); font-size: .85rem; }
+.legal-foot .legal-wrap { padding-block: 22px; }
+.legal-foot p { margin: 4px 0; }
+.legal-foot a { color: #fff; }
+.legal-foot .legal-slogan { font-size: 1rem; font-weight: 800; color: var(--accent); }
+@media (max-width: 480px) {
+  .legal-top img { height: 40px; }
+}

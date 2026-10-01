@@ -1,0 +1,38 @@
+/* ---------- Diferenciais ---------- */
+.trust-strip {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-bottom: 52px; padding: 4px;
+  background: #fff; border: 1px solid var(--line); border-radius: 14px;
+}
+.trust-strip li { display: flex; align-items: center; gap: 12px; padding: 14px 16px; }
+.trust-strip li + li { border-left: 1px dashed var(--line); }
+.trust-strip__icon { display: grid; place-items: center; flex: none; width: 42px; height: 42px; border-radius: 50%; background: var(--deal-bg); color: var(--deal-ink); font-size: 16px; }
+.trust-strip strong { display: block; font-size: 14.5px; font-weight: 900; line-height: 1.2; }
+.trust-strip small { display: block; font-size: 12.5px; color: var(--ink-3); line-height: 1.3; }
+.trust-strip .trust-strip__id { margin-top: 2px; font-weight: 800; color: var(--deal-ink); font-variant-numeric: tabular-nums; }
+
+.why { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 48px; align-items: center; }
+.why--noimg { grid-template-columns: 1fr; }
+.why__media { position: relative; border-radius: var(--r-xl); overflow: hidden; aspect-ratio: 4 / 5; background: var(--primary-tint); }
+.why__media img { width: 100%; height: 100%; object-fit: cover; }
+.why__float {
+  position: absolute; left: 16px; right: 16px; bottom: 16px;
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 16px; border-radius: 14px;
+  background: rgba(255, 255, 255, .96); backdrop-filter: blur(8px);
+  box-shadow: var(--shadow-3);
+}
+.why__float-text { display: grid; gap: 2px; }
+.why__float-text strong { font-size: 16px; font-weight: 900; }
+.why__float-text small { font-size: 12.5px; color: var(--ink-3); }
+.why__content .sec-head { margin-bottom: 24px; }
+.why__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.why-item {
+  display: flex; gap: 14px; padding: 16px;
+  background: #fff; border: 1px solid var(--line); border-radius: 14px;
+  transition: border-color .2s, box-shadow .2s, opacity .6s var(--ease) var(--d, 0ms), transform .6s var(--ease) var(--d, 0ms);
+}
+.why-item:hover { border-color: color-mix(in srgb, var(--brand-primary) 40%, #fff); box-shadow: var(--shadow-1); }
+.why-item__icon { display: grid; place-items: center; flex: none; width: 44px; height: 44px; border-radius: 12px; background: var(--secondary-tint); color: var(--brand-primary); font-size: 18px; }
+.why-item h3 { font-size: 15.5px; font-weight: 900; line-height: 1.3; }
+.why-item p { margin-top: 4px; font-size: 13.5px; color: var(--ink-2); line-height: 1.5; }

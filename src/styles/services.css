@@ -1,0 +1,63 @@
+/* ---------- Serviços ---------- */
+.svc-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.svc {
+  display: flex; flex-direction: column;
+  background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg);
+  overflow: hidden;
+  transition: box-shadow .25s var(--ease), transform .25s var(--ease), opacity .6s var(--ease) var(--d, 0ms);
+}
+.svc:hover { box-shadow: var(--shadow-2); transform: translateY(-3px); }
+.svc__media { position: relative; height: 210px; overflow: hidden; background: var(--brand-primary); isolation: isolate; }
+.svc__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
+.svc:hover .svc__media img { transform: scale(1.06); }
+.svc__media::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(8, 18, 28, .78) 0%, rgba(8, 18, 28, 0) 60%); }
+.svc__icon {
+  position: absolute; top: 14px; left: 14px; z-index: 2;
+  display: grid; place-items: center; width: 46px; height: 46px; border-radius: 12px;
+  background: #fff; color: var(--brand-primary); font-size: 19px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .2);
+}
+.svc__title { position: absolute; left: 18px; right: 18px; bottom: 14px; z-index: 2; color: #fff; font-size: 21px; font-weight: 900; line-height: 1.2; }
+.svc__body { position: relative; flex: 1; display: flex; flex-direction: column; gap: 12px; padding: 16px 18px 18px; }
+.svc__desc { font-size: 14.5px; color: var(--ink-2); }
+.svc__benefits ul { display: grid; gap: 6px; }
+.svc__benefits li { display: flex; align-items: center; gap: 8px; font-size: 13.5px; font-weight: 700; color: var(--ink); }
+.svc__benefits li i { color: var(--deal); }
+.svc__cta { margin-top: auto; display: inline-flex; align-items: center; gap: 8px; align-self: flex-start; font-size: 14.5px; font-weight: 800; color: var(--brand-primary); text-decoration: none; }
+.svc__cta i { transition: transform .2s; }
+.svc__cta:hover i { transform: translateX(4px); }
+.svc__cta:hover { text-decoration: underline; }
+
+@media (hover: hover) and (min-width: 900px) {
+  .svc__benefits {
+    position: absolute; left: 0; right: 0; top: -210px; height: 210px; z-index: 3;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 20px 24px;
+    background: color-mix(in srgb, var(--brand-primary) 94%, transparent);
+    opacity: 0; transform: translateY(12px); pointer-events: none;
+    transition: opacity .3s var(--ease), transform .3s var(--ease);
+  }
+  .svc__benefits li { color: #fff; font-size: 15px; }
+  .svc__benefits li i { color: var(--brand-accent); }
+  .svc__benefits ul { gap: 10px; }
+  .svc:hover .svc__benefits, .svc:focus-within .svc__benefits { opacity: 1; transform: none; }
+  .svc__title, .svc__icon { transition: opacity .25s; }
+  .svc:hover .svc__title, .svc:focus-within .svc__title,
+  .svc:hover .svc__icon, .svc:focus-within .svc__icon { opacity: 0; }
+}
+
+.svc-extra {
+  margin-top: 24px;
+  display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap;
+  padding: 14px 18px; border-radius: 14px;
+  background: var(--surface-2); border: 1px solid var(--line);
+}
+.svc-extra__label { display: inline-flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); }
+.svc-extra__list { display: flex; flex-wrap: wrap; gap: 8px; }
+.svc-extra__list li {
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 5px 14px 5px 5px; border-radius: 999px;
+  background: #fff; border: 1px solid var(--line);
+  font-size: 14px; font-weight: 700; color: var(--ink);
+}
+.svc-extra__icon { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--primary-tint); color: var(--brand-primary); font-size: 13px; }

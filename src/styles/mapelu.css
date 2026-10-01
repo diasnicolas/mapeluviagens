@@ -1,0 +1,38 @@
+/* =========================================================================
+   Mapelu Viagens — brand layer (colours from the full-colour logo)
+   Azul do letreiro #2A5BA0 · laranja do avião #F28C33 · vermelho do rastro #EE3537
+   ========================================================================= */
+:root {
+  --brand-ring: linear-gradient(90deg, var(--brand-primary) 0%, var(--brand-primary) 45%, var(--brand-secondary) 75%, #EE3537 100%);
+}
+
+/* Header: white, so the full-colour logo keeps blue + orange */
+.site-header {
+  background: #fff;
+  color: var(--brand-dark);
+  box-shadow: inset 0 -1px 0 var(--line);
+}
+.site-header::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 3px;
+  background: var(--brand-ring);
+}
+.site-header.is-scrolled { box-shadow: 0 10px 26px -14px rgba(16, 40, 80, .35); }
+.brand .logo-img { height: 52px; }
+.nav__link { color: color-mix(in srgb, var(--brand-dark) 82%, transparent); }
+.nav__link:hover { background: var(--primary-tint); color: var(--brand-primary); }
+.nav__link.is-active { background: var(--primary-tint); color: var(--brand-primary); }
+.burger { background: var(--primary-tint); }
+.burger span { background: var(--brand-primary); }
+
+/* Drawer (mobile menu) */
+.drawer__brand .logo-img { height: 42px; border-radius: 0; }
+
+/* Footer: white logo a bit larger + ZapTurize credit */
+.footer__logo .logo-img { height: 64px; }
+.footer__credit a { color: #fff; font-weight: 800; text-decoration: none; transition: color .18s; }
+.footer__credit a:hover { color: var(--brand-accent); text-decoration: underline; text-underline-offset: 3px; }
+
+@media (max-width: 640px) {
+  .brand .logo-img { height: 40px; }
+  .footer__logo .logo-img { height: 54px; }
+}
